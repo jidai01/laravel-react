@@ -4,7 +4,7 @@ import { NavUser } from '@/components/nav-user';
 import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from '@/components/ui/sidebar';
 import { type NavItem } from '@/types';
 import { Link } from '@inertiajs/react';
-import { BookOpen, Folder, LayoutGrid } from 'lucide-react';
+import { BookOpen, Folder, LayoutGrid,School, GraduationCap, Users, User} from 'lucide-react';
 import AppLogo from './app-logo';
 
 const mainNavItems: NavItem[] = [
@@ -12,6 +12,31 @@ const mainNavItems: NavItem[] = [
         title: 'Dashboard',
         href: '/dashboard',
         icon: LayoutGrid,
+    },
+    {
+        title: 'Fakultas',
+        href: '/fakultas',
+        icon: School,
+    },
+    {
+        title: 'Program Studi',
+        href: '/program-studi',
+        icon: BookOpen,
+    },
+    {
+        title: 'Mata Kuliah',
+        href: '/mata-kuliah',
+        icon: GraduationCap,
+    },
+    {
+        title: 'Dosen',
+        href: '/dosen',
+        icon: User,
+    },
+    {
+        title: 'Mahasiswa',
+        href: '/mahasiswa',
+        icon: Users,
     },
 ];
 
